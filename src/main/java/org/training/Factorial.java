@@ -96,8 +96,7 @@ public class Factorial {
     System.out.println(factorial(5));
     System.out.println("fact(5) using recursion is =");
     System.out.println(factorialUsingRecursion(5));
-
-    // Largest n for which n! < 2^63-1 is n = 20
+    
     System.out.println("fact(20) =");
     System.out.println(factorial(20));
 
