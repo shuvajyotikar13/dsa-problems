@@ -22,19 +22,19 @@ public class Factorial {
     if(num < 0){
       throw new UnsupportedOperationException(Util.NEGATIVE_MESSAGE);
     }
-    long fact = 1;
+    long result = 1;
 
     if(num == 0)
-      return fact;
+      return result;
 
     else{
       while(num > 0){
-        fact = fact * num ;
+        result = result * num ;
         num --;
       }
     }
 
-    return fact;
+    return result;
   }
 
   /**
@@ -96,7 +96,7 @@ public class Factorial {
     System.out.println(factorial(5));
     System.out.println("fact(5) using recursion is =");
     System.out.println(factorialUsingRecursion(5));
-    
+
     System.out.println("fact(20) =");
     System.out.println(factorial(20));
 
