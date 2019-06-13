@@ -59,37 +59,6 @@ public class Factorial {
 
   }
 
-  /**
-   * Computes the factorial of a non-negative integer recursively
-   * using tail recursion. Pls note the use of an accumulator variable
-   * that has the result at any point in time, thereby keeping the previous
-   * stack frame is not required. The stack growth is restricted, and stack
-   * overflow averted.
-   * @param num - non-negative integer whose factorial is to be calculated
-   * @return the computed factorial of the number
-   * @throws UnsupportedOperationException if the integer is negative
-   */
-  public static long factorialUsingTailRecursion(int num){
-    if(num < 0){
-      throw new UnsupportedOperationException(Util.NEGATIVE_MESSAGE);
-    }
-
-    return factorialUsingTailRecursion(num , 1);
-
-  }
-
-  /**
-   * Actual tail-recursive function performing the factorial calculation
-   * @param num the decrementing integer that is multiplied to the accumulator
-   * @param accumulator one that accumulates the result at each stage
-   * @return
-   */
-  private static long factorialUsingTailRecursion(int num, long accumulator){
-    if(num == 1)
-      return accumulator;
-    else return factorialUsingTailRecursion(num-1,num*accumulator );
-  }
-
 
   public static void main(String[] args) {
     System.out.println("fact(5) is =");
@@ -100,8 +69,6 @@ public class Factorial {
     System.out.println("fact(20) =");
     System.out.println(factorial(20));
 
-    System.out.println("fact(20) using tail recursion is =");
-    System.out.println(factorialUsingTailRecursion(20));
   }
 
 
