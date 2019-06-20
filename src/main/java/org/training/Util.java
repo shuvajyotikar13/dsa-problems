@@ -6,5 +6,6 @@ package org.training;
 public class Util {
 
   public static final String NEGATIVE_MESSAGE= "NEGATIVE NUMBERS ARE NOT SUPPORTED";
+  public static final String NEGATIVE_POSITION= "POSITION OF A SEQUENCE CANNOT BE NEGATIVE, REQUIRED n >0";
 
 }
