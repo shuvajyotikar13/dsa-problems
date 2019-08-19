@@ -1,11 +1,7 @@
 package org.training;
 
 /**
- * Created by shukar on 19/08/19.
- */
-
-/**
- * Compute the value of a particular element at a row and column for the following pattern:
+ * Calculate the value of a particular element at a row and column for the following pattern:
  *
  * 1
  * 1 1

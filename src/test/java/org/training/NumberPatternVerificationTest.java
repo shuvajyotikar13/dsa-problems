@@ -3,13 +3,6 @@ package org.training;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by shukar on 19/08/19.
- */
-
-
-
-
 public class NumberPatternVerificationTest {
 
     @Test
