@@ -28,6 +28,7 @@ public class MaxSubSequenceSum {
             currMax = Math.max(anInput[i], currMax+anInput[i]);
             maxSum = Math.max(maxSum, currMax);
         }
+        
         return maxSum;
     }
 
@@ -50,7 +51,6 @@ public class MaxSubSequenceSum {
                 }
             }
             curSum = 0;
-
         }
         return maxSum;
     }
