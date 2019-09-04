@@ -27,8 +27,10 @@ public class ArrayRotation {
         int last;
 
         for (int i=0; i<numRot; i++){
+
             last = array[length-1];
             for (int j = length-2; j>=0; j--){
+
                 array[j+1]= array[j];
             }
             array[0]=last;
