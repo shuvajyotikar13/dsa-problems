@@ -19,7 +19,12 @@ package org.training;
  */
 public class ArrayRotation {
 
-    //function to rotate the array right n counts
+    /**
+     * function to rotate the array right n counts
+     * @param array
+     * @param nRotationCount
+     * @return rotated array
+     */
     public static int[] rotateArray(int[] array, int nRotationCount) {
 
         int length = array.length;
